@@ -7,7 +7,6 @@
     <title>Kenny Dang | Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css" />
-
     <!-- Bootstrap CSS File-->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <!-- Font Awesome Icons-->
@@ -16,61 +15,55 @@
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Font Awesome Icons-->
     <link rel="stylesheet" href="./css/loader.css" />
+    <!-- App JS -->
+    <script src="./js/app.js"></script>
     <!-- Montserrat Font -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Roboto Font-->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@100;200;400&family=Raleway:wght@300;400&family=Roboto:wght@300;400&display=swap" rel="stylesheet"><header class="header_area">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@100;200;400&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:wght@300;400&family=Poppins&family=Raleway:wght@300;400&family=Roboto+Slab:wght@300;400&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
      <!-- Open Sans-->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@100;200;400&family=Open+Sans:wght@300;400&family=Raleway:wght@300;400&family=Roboto+Slab:wght@300;400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">     
   </head>
 
 
-<!-- ================= Start NavBar Area ================== -->
 
-<body>
-  <header class="header_area"">
-    <div class="main-menu">
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom" data-offset="100">
+    
+  <a href="#page-top"class="scroll-top">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+    </svg>
+  </a>
+  
+  <!-- ================= Start NavBar Area ================== -->
+  
+  <div id="main-menu">
         <nav class="navbar navbar-custom navbar-expand-sm fixed-top">
-          <a class="navbar-brand" href="#"
-            ><!--<img src="./img/logo.png" alt="logo" />-->Kenny Dang</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
+          <a class="navbar-brand page-scroll" href="#">
+            <!--<img src="./img/logo.png" alt="logo" />-->Kenny Dang</a>
 
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="me-auto"></div>
             <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#about"
-                  >About <span class="sr-only">(current)</span></a
-                >
+              <li class="hidden">
+                <a class="nav-link" href="#page-top"></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#experience">Experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#gallery">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+              <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> -->
             </ul>
             </div>
           </div>
         </nav>
       </div>
-    </header>
 
 <!-- ================= End NavBar Area ================== -->
 
@@ -100,8 +93,8 @@
           <p>
             Hello! My name is Kenny Dang and I am currently a fourth year undergraduate student at 
             <a href="https://www.odu.edu/" target="_blank">Old Dominion University</a> persuing 
-            a degree in computer science.</a> I am currently seeking a software engineer
-            intern/co-op position for Fall 2022 or Spring 2023. In the future, I hope to be a software developer that solves real world problems or a
+            a degree in computer science.</a> I am currently seeking
+            a full-time software engineer/front-end job after graduation in Spring 2023. In the future, I hope to be a software developer that solves real world problems or a
             web-developer that creates creative websites.
             <br>
             <br>
@@ -135,22 +128,41 @@
 
 <!-- ================= Start Experience Area ================== -->
 
-  <section id="experience">
+  <!-- <section id="skills">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="col-md-10 col-md-offset-1"></div>
-            <h2>Experience</h2>
+            <h2>My Skills</h2>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+<!-- ================= End Experience Area ================== -->
+
+<!-- ================= Start Resume Area ================== -->
+
+  <section id="resume">
+    <div class="text-center">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>My Resume</h2>
+              <a class="resume-button" href="../Resume-2022.pdf" target="_blank">Click to View</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-<!-- ================= End Experience Area ================== -->
+<!-- ================= End Resume Area ================== -->
 
 <!-- ================= Start Gallery Area ================== -->
 
-  <section id="gallery">
+  <!-- <section id="gallery">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -159,9 +171,48 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 <!-- ================= End Gallery Area ================== -->
+
+<!-- ================= Start Contact Area ================== -->
+<!-- 
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-10 col-md-offset-1"></div>
+            <h2>Contact</h2>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+<!-- ================= End Gallery Area ================== -->
+
+<!-- ================= Start Footer Area ================== -->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <ul class="social-buttons">
+            <li><a id="linkedin" href="https://www.linkedin.com/in/kennyndang/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a id="github" href="https://github.com/kenny-dd" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a id="twitter" href="https://twitter.com/k4nnyc0des" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a id="instagram" href="https://www.instagram.com/kenny.dd/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a id="spotify" href="https://open.spotify.com/user/lpsashelytv" target="_blank"><i class="fa-brands fa-spotify"></i></a></li>
+          </ul>
+          <div id="copyright">
+              <p>Kenny Dang <i class="fa fa-copyright" aria-hidden="true"></i> 2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- ================= End Footer Area ================== -->
+
 
 <!-- ================= Start Loader Area ================== -->
 
@@ -184,6 +235,8 @@
     <script src="./js/particles.js"></script>
     <!--Bootstrap JS File-->
     <script src="./js/bootstrap.min.js"></script>
+
+
 
     <script type="text/javascript">
       var nav = document.querySelector('nav');
