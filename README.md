@@ -1,4 +1,2 @@
 # knd-website v1
-
-##
-My first iteration of my personal website
+The first iteration of my personal website!
