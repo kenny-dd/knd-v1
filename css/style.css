@@ -160,7 +160,7 @@ p {
 
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
 
-  height: 850px;
+  height: 900px;
   background-attachment: fixed;
 }
 
@@ -182,7 +182,7 @@ p {
 
 .intro-content {
   position: absolute;
-  padding: 20% 0 5% 0;
+  padding: 20% 0 20% 0;
   left: 0;
   right: 0;
   z-index: 0;
